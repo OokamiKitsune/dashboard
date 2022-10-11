@@ -1,1 +1,19 @@
-This is a basic KPI Dashboard running on top of Plotly, Flask and Dash. 
+This is a basic KPI Dashboard running on top of Plotly, Flask and Dash. Using Pandas for data manipulation. 
+
+
+Installation
+
+You will need Python Poetry to install dependancies. The poetry.lock file contains the dependancies and their version needed to run. 
+
+Simply cd to directory and
+
+start a venv using poetry:
+$ poetry shell 
+install the dependancies
+$ poetry install
+
+then run the application
+
+$ python app.py 
+
+test data is already provided.
