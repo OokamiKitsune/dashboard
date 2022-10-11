@@ -1,0 +1,1 @@
+This is a basic KPI Dashboard running on top of Plotly, Flask and Dash. 
