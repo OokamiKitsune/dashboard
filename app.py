@@ -13,10 +13,9 @@ import plotly.express as px
 
 data_url = "https://raw.githubusercontent.com/plotly/datasets/master/supermarket_Sales.csv"
 sales = pd.read_csv(data_url)
-print(sales["Date"])
+
 # Converts and make changes to some of the data
 sales["Date"] = pd.to_datetime(sales["Date"])
-print(sales["Date"])
 sales = sales.sort_values("Date").set_index("Date")
 
 sales["Revenue"] = sales["Unit price"] * sales["Quantity"]
