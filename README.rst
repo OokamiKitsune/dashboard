@@ -1,7 +1,7 @@
 This is a basic KPI Dashboard running on top of Plotly, Flask and Dash. Using Pandas for data manipulation. 
 
 
-**Installation**
+****Installation****
 
 You will need Python Poetry to install dependancies. Poetry is a quick and easy dependancies manager for python. Highly recommeded. 
 
@@ -22,3 +22,4 @@ $ poetry install
 $ python app.py 
 
 test data is already provided.
+
